@@ -6,7 +6,7 @@ body{
 
 #container{
     width: 300px;
-    height: 300px;
+    height: auto;
     background-color: #84dfdf;
     margin: auto;
     margin-top: 150px;
