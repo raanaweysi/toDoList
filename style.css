@@ -1,36 +1,41 @@
 body{
-    background-color: #c0ebeb;
+    background-color: #e2e7eb;
     margin: 0px;
 }
 
 
 #container{
     width: 300px;
-    height: auto;
-    background-color: #84dfdf;
+    height: 400px;
+    background-color: #b4b8b8;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 70px;
     box-sizing: border-box;
     padding: 50px;
+    overflow: scroll;
 }
 #container .form input{
     width: 120px;
     height: 20px;
+    border: none;
     border-radius: 5px;
 }
 #container .form button{
     width: 50px;
     height: 26px;
+    border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
+
 #container #todo-list li{
     list-style-type: decimal;
-    color: #da51b7;
+    color: #1d1d1f;
 }
 #container #todo-list li a{
     text-decoration: none;
     color: #aa0303;
 }
 #container h1{
-    color: #da3d3d;
+    color: #39471d;
 }
